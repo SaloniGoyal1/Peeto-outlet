@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
 import Header from './HeaderComponent';
-import Footer from './FooterComponent';
 
 class Main extends Component {
 
@@ -11,7 +10,6 @@ class Main extends Component {
         <Header />
         <br />
         <Menu />
-        <Footer />
       </div>
     );
   }
