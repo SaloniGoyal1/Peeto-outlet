@@ -1,20 +1,11 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/MenuComponent';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Main from './components/MainComponent';
 
 function App() {
   return (
     <div className="App">
-      <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Peeto Outlet</NavbarBrand>
-          </div>
-        </Navbar>
-        <div className="container">
-          <br />
-            <Menu />
-        </div>
+        <Main />
     </div>
   );
 }
