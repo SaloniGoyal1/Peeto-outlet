@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './MenuComponent';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 
 class Main extends Component {
-
-  onDishSelect(dishId) {
-    this.setState({ selectedDish: dishId});
-  }
 
   render() {
     return (
       <div>
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Peeto Outlet</NavbarBrand>
-          </div>
-        </Navbar><br />
+        <Header />
+        <br />
         <Menu />
+        <Footer />
       </div>
     );
   }
